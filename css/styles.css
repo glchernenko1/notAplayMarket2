@@ -1,0 +1,338 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    color: #262b33;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    background-color: #F5F5F5;
+    height: 250px;
+    position: relative;
+}
+
+.header__content {
+    padding: 45px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__text {
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration: none;
+}
+
+.actions__download-btn {
+    background-color: #3666F7;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.133984px;
+    appearance: none;
+    outline: none;
+    text-align: center;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: background-color .1s ease;
+    border: none;
+    border-radius: 6px;
+}
+
+.actions__download-btn:hover {
+    background-color: #0940E7;
+}
+
+.resume-container {
+    margin-bottom: 180px;
+    margin-top: -125px;
+}
+
+.resume-page {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    width: 1110px;
+    min-height: 1200px;
+    margin: auto;
+    z-index: 2;
+}
+
+.resume-page__content {
+    padding: 70px;
+
+}
+
+.content__column {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.lang__column{
+    margin-top: 103px;
+
+}
+
+.resume-page__head {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.image__container {
+    display: flex;
+}
+
+.resume-page__head__name {
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.resume-page__head__position {
+    font-size: 24px;
+    color: #555555;
+    line-height: 34px;
+}
+
+.resume-page__head__contacts {
+    color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    text-align: right;
+    line-height: 32px;
+}
+
+
+.introduction {
+    margin-top: 40px;
+    margin-bottom: 48px;
+    color: #555555;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+.skills {
+    display: flex;
+}
+
+.resume-page__body__head__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.resume-page__body__body__text {
+    margin-top: 16px;
+    font-size: 18px;
+    flex-basis: 450px;
+    line-height: 24px;
+}
+
+.resume-page__column_stile {
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.resume-page__margin-top_40 {
+    margin-top: 40px;
+}
+
+.right__column {
+    margin-left: 50px;
+}
+
+.text_grey {
+    color: #555555;
+}
+
+.resume-page__body__head__text_red {
+    color: #EE5035;
+}
+
+.resume-page__body__head__text_lite-red {
+    color: #FB746A;
+}
+
+
+.text__date {
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCCCCC;
+    margin-top: 16px;
+}
+
+.text__date_INTERNSHIP {
+    margin-top: 16px;
+}
+
+.text__date_PROJECTS {
+    margin-top: 8px;
+}
+
+.introduction_text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #555555;
+    margin-bottom: 12px;
+}
+
+ul.dash {
+    list-style: none;
+    margin-bottom: 12px;
+    padding-left: 0em;
+}
+
+ul.dash > li:before {
+    display: inline-block;
+
+    text-indent: 1em;
+    content: "— ";
+    margin-left: -1em;
+}
+
+.footer__link {
+    display: flex;
+    padding-top: 100px;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+
+.resume-page__body__head__text_purple {
+    color: #A066F8;
+}
+
+.resume-page__body__head__text_green {
+    color: #32CD88;
+}
+
+.resume-page__body__head__text_blue {
+    color: #38BEF8;
+}
+.soc-block{
+    display: flex;
+}
+
+.soc-block a{
+   margin-left: 16px;
+}
+
+.soc-block a:hover img {
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.soc-block a img {
+    transition: 0.7s;
+}
+
+
+
+.box1 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.box2 {
+    padding-top: 68px;
+}
+
+.box2_name{
+    font-family: 'Lato';
+    font-size: 30px;
+}
+
+.box2_levl2{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    gap: 228px;
+}
+
+.star {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABWUlEQVR4AWMgFhQXFxuXlJQoMlAbAA1dWlpa2kdVQ8vKymSABv8GuvojkM1LTdd2AA39D8JAV+dTy1BuIH4HMxjIvtPQ0MBEDYNzYIYiGe5PkaEglwENuo3F4P0kGbRq1SrmqqoqcaBGPSB2ARpSBzcQE8cCI9IZqM4JiB2AfLvy8nIbYBxYA7ERA5AoAwpeAeLXQAV/QZooxD+A5niDvMsCZMyhyDBEEH0HutodPZJqKTT4Gyj4cGXbWCD+RYZLv4DCGW8EQiPkAwkGfwbGky3RBQ4Jrk0kOtlVVFQYkmBwOSlFZDwJBi8nJRv3kmDwNVJcvAeLIfeB+BkW8T99fX2cxLr4FZKL/gJxPxBzAzMTH1BsAsgwZMOBKcmMkJmgLC6BpOkSNk3QsuQIkro0Ygx2A+V3IK6ZOXMmKy51////ZwSqTQD5DoinElMNOVZWVmqQULQKYEvLAMrDAC0IHVAfAAAAAElFTkSuQmCC);
+}
+
+.bUWb7c {
+    height: 23px;
+    width: 23px;
+}
+
+
+.O3QoBc {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQVR4AWP4TwBSTQEIlAuUbyj/D4QbygWwK1gAlITABdgVHIArOECmggC4ggBMBRAlBuUNQGgAE8VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+}
+
+.qLorRc {
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+    vertical-align: top;
+}
